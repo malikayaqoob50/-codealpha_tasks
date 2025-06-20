@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <h1>Gallery</h1>
+    <div class="full-img" id="fullImgBox">
+        <span class="arrow left" onclick="prevImg()">&#10094;</span>
+        <img src="images/2.jpg" id="fullImg">
+            <span class="arrow right" onclick="nextImg()">&#10095;</span>
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallery" id="gallery">
+        <img src="images/2.jpg" onclick="openFullImg(0)">
+        <img src="images/3.jpg" onclick="openFullImg(1)">
+        <img src="images/4.jpg" onclick="openFullImg(2)">
+        <img src="images/5.jpg" onclick="openFullImg(3)">
+        <img src="images/6.jpg" onclick="openFullImg(4)">
+        <img src="images/7.jpg" onclick="openFullImg(5)">
+        <img src="images/8.jpg" onclick="openFullImg(6)">
+        <img src="images/9.jpg" onclick="openFullImg(7)">
+        <img src="images/11.jpg" onclick="openFullImg(8)">
+        <img src="images/13.jpg" onclick="openFullImg(9)">
+        <img src="images/14.jpg" onclick="openFullImg(10)">
+        <img src="images/15.jpg" onclick="openFullImg(11)">
+    </div>
+
+
+<script src="gallery.js"></script>
+
+   
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.music-player {
+  background: linear-gradient(to right, #0f2027, #dd1fae, #2c8797);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  height: 450px;
+  width: 300px;
+}
+
+h1 {
+    color: #ffffff;
+  margin-bottom: 20px;
+}
+p{
+    color: #ffffff;
+}
+.controls button {
+
+  margin: 70px 5px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.controls button:hover {
+  background-color: #951a8f;
+}
+
+#progress {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.volume-control {
+  margin-top: 15px;
+}
+
+.volume-control input {
+  width: 100%;
+}
